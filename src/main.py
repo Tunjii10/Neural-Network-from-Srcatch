@@ -23,7 +23,7 @@ def start():
     ann.pipeline(neurons_in_layers, activations, type_learning_rate,
                  learning_rate, epoch, loss_function, gradient_descent, batch_size)
     # ann.pipeline("[30, 40, 1]", "['Relu','Sig']", "['Const']",
-    #              "0.00001", "70", "['BCE']", "['MBGD']", "150") #shorcut for input
+    #              "0.00001", "70", "['BCE']", "['MBGD']", "150")  # shorcut for input
 
 
 if __name__ == "__main__":
